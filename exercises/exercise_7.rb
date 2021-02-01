@@ -19,6 +19,6 @@ new_store = gets.chomp
 
 errors = @new_store.errors.full_messages
 
-errors.each do |e|
-  puts e
+errors.each do |error|
+  puts error
 end
